@@ -11,7 +11,7 @@ from ultralytics import YOLO
 model = YOLO("yolov5s.pt")
 
 # Animal-related COCO classes
-animal_labels = {'bird', 'cat', 'dog', 'horse','leopard', 'sheep', 'cow'}
+animal_labels = {'bird', 'cat', 'dog', 'horse', 'sheep', 'cow'}
 # Load the image
 image = cv2.imread(image_path)
 
